@@ -11,7 +11,19 @@ const user= new Schema({
     },
     "password":{
         type:"String",
-        required:true
+        required:false
+    },
+    "photo_url":{
+        type:"String",
+        required:false
+    },
+    "firebaseUid":{
+        type:"String",
+        required:false
+    },
+    "fcmToken":{
+        type:"String",
+        required:false
     }
 })
 
